@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Module3_HW5
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            AsyncHandler handler = new AsyncHandler();
+            Console.WriteLine(handler.Concat());
+        }
+    }
+}
